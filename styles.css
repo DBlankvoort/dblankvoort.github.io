@@ -72,6 +72,7 @@ header {
 /* Main Content */
 main {
     min-height: calc(100vh - 200px);
+    align-items: left;
 }
 
 .section {
