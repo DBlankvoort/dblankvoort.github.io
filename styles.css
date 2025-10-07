@@ -126,6 +126,7 @@ h3 {
 .project-card {
     background: var(--white);
     padding: 2rem;
+    margin-bottom: 1.5rem;
     transition: var(--transition);
 }
 
