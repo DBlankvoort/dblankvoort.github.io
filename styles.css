@@ -114,10 +114,10 @@ h3 {
 
 /* Projects Section */
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 800px;
     gap: 2rem;
     margin-top: 2rem;
+    align-items: left;
 }
 
 .project-card {
@@ -158,6 +158,7 @@ h3 {
 .blog-posts {
     max-width: 800px;
     margin: 0 auto;
+    align-items: left;
 }
 
 .blog-post {
@@ -193,6 +194,7 @@ h3 {
 .experience-timeline {
     max-width: 800px;
     margin: 0 auto;
+    align-items: left;
 }
 
 .experience-item {
