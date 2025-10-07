@@ -7,7 +7,7 @@
 
 :root {
     --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --secondary-color: #333;
     --accent-color: #e74c3c;
     --text-color: #333;
     --light-gray: #ecf0f1;
@@ -63,7 +63,6 @@ header {
     font-weight: 500;
     transition: var(--transition);
     padding: 0.5rem 1rem;
-    border-radius: 4px;
 }
 
 .nav-menu a:hover {
@@ -125,7 +124,6 @@ h3 {
 .project-card {
     background: var(--white);
     padding: 2rem;
-    border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
 }
@@ -150,7 +148,6 @@ h3 {
     background-color: var(--secondary-color);
     color: var(--white);
     text-decoration: none;
-    border-radius: 4px;
     transition: var(--transition);
     font-weight: 500;
 }
@@ -170,7 +167,6 @@ h3 {
     background: var(--white);
     padding: 2rem;
     margin-bottom: 2rem;
-    border-radius: 8px;
     border-left: 4px solid var(--secondary-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -207,7 +203,6 @@ h3 {
     background: var(--white);
     padding: 2rem;
     margin-bottom: 2rem;
-    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     border-left: 4px solid var(--secondary-color);
