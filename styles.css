@@ -34,7 +34,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
@@ -124,13 +123,11 @@ h3 {
 .project-card {
     background: var(--white);
     padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-card h3 {
@@ -168,7 +165,6 @@ h3 {
     padding: 2rem;
     margin-bottom: 2rem;
     border-left: 4px solid var(--secondary-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .blog-post h3 {
@@ -203,7 +199,6 @@ h3 {
     background: var(--white);
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     border-left: 4px solid var(--secondary-color);
 }
