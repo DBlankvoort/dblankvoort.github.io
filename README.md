@@ -1,7 +1,3 @@
-Personal website featuring projects, blog, and academic experience.
-
-Visit the live site at: [https://dblankvoort.github.io](https://dblankvoort.github.io)
-
-## 📄 License
+Personal website. Visit the live site at: [https://dblankvoort.github.io](https://dblankvoort.github.io)
 
 All rights reserved.
