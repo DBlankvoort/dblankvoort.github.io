@@ -167,7 +167,6 @@ h3 {
     background: var(--white);
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 4px solid var(--secondary-color);
 }
 
 .blog-post h3 {
