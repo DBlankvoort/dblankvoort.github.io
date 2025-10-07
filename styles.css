@@ -108,11 +108,30 @@ h3 {
     font-size: 1.1rem;
     line-height: 1.8;
     align-items: left;
+    color: var(--secondary-color);
 }
 
 .about-content p {
     margin-bottom: 1rem;
     align-items: left;
+}
+
+/* Blog Section */
+.blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: left;
+}
+
+.blog-post {
+    background: var(--white);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blog-post h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
 }
 
 /* Projects Section */
@@ -156,24 +175,6 @@ h3 {
 .btn:hover {
     background-color: #2980b9;
     transform: translateY(-2px);
-}
-
-/* Blog Section */
-.blog-posts {
-    max-width: 800px;
-    margin: 0 auto;
-    align-items: left;
-}
-
-.blog-post {
-    background: var(--white);
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-.blog-post h3 {
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
 }
 
 .post-meta {
