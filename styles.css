@@ -106,10 +106,12 @@ h3 {
     margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.8;
+    align-items: left;
 }
 
 .about-content p {
     margin-bottom: 1rem;
+    align-items: left;
 }
 
 /* Projects Section */
@@ -188,46 +190,6 @@ h3 {
 
 .read-more:hover {
     color: var(--accent-color);
-}
-
-/* Experience Section */
-.experience-timeline {
-    max-width: 800px;
-    margin: 0 auto;
-    align-items: left;
-}
-
-.experience-item {
-    background: var(--white);
-    padding: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-    border-left: 4px solid var(--secondary-color);
-}
-
-.experience-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-}
-
-.experience-date {
-    color: var(--dark-gray);
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
-.experience-institution {
-    font-style: italic;
-    color: var(--secondary-color);
-    margin-bottom: 1rem;
-}
-
-.experience-description {
-    color: var(--text-color);
-    line-height: 1.6;
 }
 
 /* Footer */
